@@ -18,19 +18,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity"/>
-        <!--<activity android:name=".LoginActivity">-->
-            <!--&lt;!&ndash; Schame &ndash;&gt;-->
-            <!--<intent-filter>-->
-                <!--<data-->
-                    <!--android:host="main"-->
-                    <!--android:scheme="/app/"/>-->
-                <!--<action android:name="android.intent.action.VIEW"/>-->
-                <!--<category android:name="android.intent.category.DEFAULT"/>-->
-                <!--&lt;!&ndash;如果需要配置能被js调起，一定要配置下面这句&ndash;&gt;-->
-                <!--<category  android:name ="android.intent.category.BROWSABLE"/>-->
-            <!--</intent-filter>-->
 
-        <!--</activity>-->
     </application>
 
 

@@ -36,5 +36,8 @@ dependencies {
     //ARouter的依赖
     implementation 'com.alibaba:arouter-api:1.3.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.2.0'
-    //implementation project(':testmodule')
+    if (isNeedTestModule.toBoolean()) {
+        implementation project(':testmodule')
+    }
+    implementation project(':common')
 }

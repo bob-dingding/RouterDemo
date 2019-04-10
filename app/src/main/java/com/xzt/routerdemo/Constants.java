@@ -14,5 +14,7 @@ public class Constants {
 
     //testmodule的MainActivity的path
     public static final String TESTMODULEMAINPATH="/testmodule/main";
+    //testmodule的MainActivity的path
+    public static final String TESTMODULESERVICE="/testmodule/service";
 
 }

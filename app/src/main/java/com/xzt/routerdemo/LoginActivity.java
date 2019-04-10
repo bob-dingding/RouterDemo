@@ -31,6 +31,11 @@ public class LoginActivity extends BaseActivity {
 
     @Override
     public void initView() {
+        if(name.equals("startActivity")){
+            Intent mIntent =new Intent().putExtra("data","456");
+            setResult(456,mIntent);
+            finish();
+        }
 
     }
 
@@ -41,13 +46,10 @@ public class LoginActivity extends BaseActivity {
             public void onClick(View view) {
                 ARouter.getInstance().build(Constants.MAINPATH)
                         .navigation(LoginActivity.this,new CustomNavigationCallback(LoginActivity.this));
-
             }
         });
 
-        Intent mIntent =new Intent().putExtra("data","456");
-        setResult(456,mIntent);
-        finish();
+
     }
 
 
